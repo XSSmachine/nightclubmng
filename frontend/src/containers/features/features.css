@@ -1,0 +1,8 @@
+.all_tables {
+    display: flex;
+width: 1920px;
+height: 1500px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}

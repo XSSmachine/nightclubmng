@@ -1,0 +1,31 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-text {
+  text-shadow: 2px 2px 5px #00000026;
+    display: flow;
+    right: 50px;
+}
+
+.p {
+   position: relative;
+}
+
+#text {
+  z-index: 100;
+  position: absolute;
+    right: 170px;
+  color: white;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: left;
+  left: 150px;
+  top: 350px;
+    font-family: 'Inter';
+font-style: normal;
+
+letter-spacing: 2.5px;
+}

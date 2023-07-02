@@ -1,0 +1,93 @@
+.main_suitewrap {
+    position: absolute;
+  top: 1000px;
+  width: 100%;
+  height: 200vh;
+  overflow: hidden;
+  padding: 0;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    z-index: 1;
+}
+/*.position-top {*/
+/*  position: sticky;*/
+/*  top: -2000px; !* Adjust the value as per your preference *!*/
+
+/*}*/
+
+.row {
+    margin-left: -7px;
+    margin-right: -8px;
+}
+
+.padding-zero {
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+}
+
+.main_suitewrap a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0;
+}
+
+.overlay_container {
+    position: sticky;
+    width: 100%;
+    min-height: 500px;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    transform: scale(1);
+}
+
+.ophidden.full-visible {
+    opacity: 1;
+}
+
+.logo1, .logo2, .logo3, .logo4, .logo5, .logo6 {
+    position: relative;
+    top: 160px;
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    -moz-animation-name: fadeInUp;
+    -o-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+
+
+div {
+    display: block;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+.info_button {
+    position: relative;
+    top: 180px;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 300;
+    color: #f8f6f6;
+    text-decoration: none;
+    padding: 5px 10px 7px 10px;
+    border: 1px #ffffff solid;
+}
+
+
+
+.ophidden {
+    opacity: 0;
+}
+.ophidden.full-visible {
+    opacity: 1;
+}

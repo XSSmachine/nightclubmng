@@ -1,0 +1,83 @@
+.video {
+   object-fit: cover;
+  width: 150vw;
+  height: 150vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+
+}
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%;
+  min-height: 100%;
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.singleCol{
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: 2rem;
+  z-index: 1;
+}
+
+
+
+
+.jumbo_bottom {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 360px;
+    left: 0px;
+    right: 100px;
+    top: 530px;
+    text-align: center;
+    padding: 20px 40px 50px 40px;
+    z-index: 10;
+}
+
+.social_icons_jumbo {
+    display: inline-block;
+    text-align: left;
+    width: 7%;
+    padding: 0px 0px 0px 0px;
+
+}
+
+.everythingOnOneLine {
+ white-space: nowrap;
+
+}
+.everythingOnOneLine img{
+ padding: 29px;
+
+}
+
+.everythingOnOneLine * {
+ display: inline;
+}
+
+
+

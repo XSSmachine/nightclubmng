@@ -1,0 +1,43 @@
+.header3 {
+  position: absolute;
+width: 1654.81px;
+height: 144px;
+left: 132.69px;
+top: 98px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 70px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 2px;
+
+color: #14141A;
+
+}
+
+
+
+.whitewrap {
+  position: absolute;
+height: 310px;
+left: 0px;
+right: 0px;
+top: 750px;
+  padding: 0;
+  z-index: initial;
+
+
+background: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .header3 {
+    width: 100%;
+    font-size: 36px;
+    top: 50px;
+  }
+}
